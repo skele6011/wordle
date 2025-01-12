@@ -141,7 +141,7 @@ function revealWord(guess) {
     if (isWinner) {
       alert('Congratulations!');
     } else if (isGameOver) {
-      alert(`Do better next time bozo ${state.secret}.`);
+      alert(`Do better next time bozo! The word was ${state.secret}.`);
     }
   }, 3 * animation_duration);
 }
